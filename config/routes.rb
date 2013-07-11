@@ -1,9 +1,12 @@
 DeveApp::Application.routes.draw do
-  get "entry/home"
-  get "entry/portfolio"
-  get "entry/services"
-  get "entry/faq"
-  get "entry/contact"
+  root to: "entry#home"
+
+  get "/home", to: "entry#home"
+  get "/portfolio", to: "entry#portfolio"
+  get "/why", to:  "whyreq#why"
+  get  "/services", to: "entry#services"
+  get  "/faq", to: "entry#faq"
+  get "/contact", to: "entry#contact"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

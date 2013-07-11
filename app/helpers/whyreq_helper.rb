@@ -1,0 +1,2 @@
+module WhyreqHelper
+end
