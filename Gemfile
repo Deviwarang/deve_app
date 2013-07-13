@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
+gem "rdoc-data", "~> 4.0.1"
+
+
 # Use sqlite3 as the database for Active Record
 group :development do
 	gem  'sqlite3'
@@ -34,6 +37,7 @@ group :doc do
   gem 'sdoc', require: false
 
 end
+gem 'rails_12factor', group: :production
 
 group :production do
   gem 'pg', '0.12.2'

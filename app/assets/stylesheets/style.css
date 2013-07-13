@@ -11,12 +11,6 @@
 
 
 
-
-.jumbotron {
-        margin: 60px 0;
-        height: 350px;
-        
-      }
        
  .touch {
   font-size: 1.5em;
@@ -24,21 +18,26 @@
 
 h3{
   text-align: center;
-}
+
+  }
+
+  .navbar, .navbar-inner{
+    background: #420600;
+  }
+
+  
 
 .jumbo {
+  width: 1100px;
   margin: 0 auto;
   padding-top: 0px;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
   padding-top: ;
   color:;
-  text-align: center;
-
+  
 }
 
-.active {
-  color: #619E60;
-}
+
 
 a:hover, a:active {
   background-color: #263;
@@ -86,4 +85,8 @@ margin:20px;
   padding-left: 30px;
   text-align: center;
 
+}
+
+p {
+  text-align: justify;
 }
