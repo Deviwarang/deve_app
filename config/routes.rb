@@ -1,4 +1,6 @@
 DeveApp::Application.routes.draw do
+  resources :users
+
   root  to: 'entry#home'
 
   get '/home', to: 'entry#home'
