@@ -1,7 +1,7 @@
 DeveApp::Application.routes.draw do
-  root to: "entry#home"
+  root  "entry#home"
 
-  match "/home", to: "entry#home"
+  get "/home", to: "entry#home"
   get "/portfolio", to: "entry#portfolio"
   get "/why", to:  "whyreq#why"
   get  "/services", to: "entry#services"
