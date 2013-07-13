@@ -9,12 +9,12 @@
       <div class="navbar">
         <div class="navbar-inner">
             <ul class="nav">
-              <li class="active"><a href="home">Home</a></li>
-              <li><a href="portfolio">Portfolio</a></li>
-              <li><a href="why">WHY</a></li>
-              <li><a href="services">Services</a></li>
-              <li><a href="faq">FAQ</a></li> 
-              <li><a href="contact">Contact</a></li>
+              <li><%= link_to "Home",  root_path %></li>
+              <li><%= link_to "Portfolio", portfolio_path %></li>
+              <li><%= link_to "WHY", why_path %></li>
+              <li><%= link_to  "Services", services_path %></li>
+              <li><%= link_to  "FAQ",  faq_path %></li> 
+              <li><%= link_to  "Contact", contact_path  %></li>
               </li>
             </ul>  
         </div>
