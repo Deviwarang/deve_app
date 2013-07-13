@@ -2,10 +2,8 @@
 .container {
 
   width: 700px;
-  background: url('parrotn.jpg');
-  
+  background: url('parrotn.jpg');  
   padding-top: 20px;
-  top: 0;
   margin: 0 auto;
 }
 
@@ -16,7 +14,7 @@
   font-size: 1.5em;
  }      
 
-h3{
+h3 {
   text-align: center;
 
   }
@@ -24,18 +22,6 @@ h3{
   .navbar, .navbar-inner{
     background: #420600;
   }
-
-  
-
-.jumbo {
-  width: 1100px;
-  margin: 0 auto;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-top: ;
-  color:;
-  
-}
 
 
 
